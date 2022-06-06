@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <NumeroDeCliente>1</NumeroDeCliente>
+    <Documento>36399374</Documento>
+    <Nombre>Leandro Sebastian</Nombre>
+    <Apellido>Avalos</Apellido>
+    <NumeroTelefonico>1135885590</NumeroTelefonico>
+    <DireccionParticular>Chascomus 16</DireccionParticular>
+    <Edad>30</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroContraTodo">
+      <Precio>10000</Precio>
+      <AnioDelVehiculo>2022</AnioDelVehiculo>
+      <MarcaDelVehiculo>Lamborghini</MarcaDelVehiculo>
+      <ModeloDelVehiculo>Diablo</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>true</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>true</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>true</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>true</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>true</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>true</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+  <Cliente>
+    <NumeroDeCliente>2</NumeroDeCliente>
+    <Documento>40567894</Documento>
+    <Nombre>Julian</Nombre>
+    <Apellido>Alvarez</Apellido>
+    <NumeroTelefonico>1198756123</NumeroTelefonico>
+    <DireccionParticular>Calle falsa 123</DireccionParticular>
+    <Edad>25</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroIntermedio">
+      <Precio>6500</Precio>
+      <AnioDelVehiculo>2020</AnioDelVehiculo>
+      <MarcaDelVehiculo>Mazda</MarcaDelVehiculo>
+      <ModeloDelVehiculo>Rx74</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>true</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>true</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>true</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>false</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>false</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>false</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+  <Cliente>
+    <NumeroDeCliente>3</NumeroDeCliente>
+    <Documento>39821645</Documento>
+    <Nombre>Mercedez</Nombre>
+    <Apellido>Yo soy</Apellido>
+    <NumeroTelefonico>1132456987</NumeroTelefonico>
+    <DireccionParticular>Falsa calle 321</DireccionParticular>
+    <Edad>40</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroBasico">
+      <Precio>3000</Precio>
+      <AnioDelVehiculo>2018</AnioDelVehiculo>
+      <MarcaDelVehiculo>McLaren</MarcaDelVehiculo>
+      <ModeloDelVehiculo>Senna</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>false</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>false</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>false</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>false</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>false</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>false</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+</ArrayOfCliente>

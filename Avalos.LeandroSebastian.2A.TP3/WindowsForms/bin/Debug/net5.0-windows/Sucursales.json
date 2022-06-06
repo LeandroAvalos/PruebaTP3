@@ -1,0 +1,12 @@
+[
+  {
+    "Barrio": "Palermo",
+    "NumeroTelefonico": 1145678932,
+    "DireccionParticular": "Riobamba 45",
+    "CodigoDeSucursal": "98FG7",
+    "AbiertoDe": "Lunes",
+    "AbiertoHasta": "Viernes",
+    "Apertura": "08:00",
+    "Cierre": "16:00"
+  }
+]
