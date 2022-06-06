@@ -207,7 +207,7 @@ namespace WindowsForms
         /// </summary>
         private void AgregarSucursal()
         {
-            Sucursales unaSucursal = new Sucursales(txtBarrioDeLaSucursal.Text, int.Parse(txtTelefono.Text), txtDireccion.Text, txtCodigoDeLaSucursal.Text,
+            Sucursales unaSucursal = new Sucursales(txtBarrioDeLaSucursal.Text, double.Parse(txtTelefono.Text), txtDireccion.Text, txtCodigoDeLaSucursal.Text,
                 (string)cmbAbiertoDe.SelectedItem, (string)cmbAbiertoHasta.SelectedItem, (string)cmbHorarioApertura.SelectedItem, (string)cmbHorarioCierre.SelectedItem);
 
             string mensaje = $"Se agrego una sucursal al sistema el {DateTime.Now:f}";

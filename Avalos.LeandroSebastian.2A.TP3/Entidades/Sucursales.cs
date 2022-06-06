@@ -36,7 +36,7 @@ namespace Entidades
         /// <param name="abiertoHasta">Hasta que dia abre la sucursal pasada por parametro.</param>
         /// <param name="apertura">Horario de apertura pasada por parametro.</param>
         /// <param name="cierre">Horario de cierre pasado por parametro.</param>
-        public Sucursales(string barrio, int numeroTelefonico, string direccionParticular, string codigoDeSecursal
+        public Sucursales(string barrio, double numeroTelefonico, string direccionParticular, string codigoDeSecursal
             ,string abiertoDe, string abiertoHasta, string apertura, string cierre)
         {
             this.barrio = barrio;

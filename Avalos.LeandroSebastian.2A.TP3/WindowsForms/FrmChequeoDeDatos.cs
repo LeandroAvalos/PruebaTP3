@@ -138,6 +138,7 @@ namespace WindowsForms
                         }
                         else
                         {
+                            txtDatoAPedir.MaxLength = 10;
                             MessageBox.Show("Debe ingresar solamente numeros, no dejar el cuadro de texto en blanco y el numero debe tener 10 caracteres numericos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                         break;
